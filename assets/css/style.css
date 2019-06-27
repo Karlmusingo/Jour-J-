@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  background-color: rgb(60, 60, 60);
+  font-family: tahoma, sans-serif;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+header {
+  font-size: 30px;
+  text-align: center;
+  padding: 60px 0px 30px 0px;
+  text-shadow: 0px 2px 10px black;
+}
+.container {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-shadow: 0px 2px 10px black;
+}
+.number {
+  font-size: 60px;
+}
+
+.button {
+  width: 100%;
+  margin-top: 50px;
+  display: none;
+}
+
+button {
+  width: 40%;
+  padding: 8px 0px;
+  margin-left: 30%;
+  font-size: 1em;
+  color: #fff;
+  cursor: pointer;
+  background-color: red;
+  outline: navy;
+}

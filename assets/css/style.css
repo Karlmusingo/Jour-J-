@@ -1,10 +1,12 @@
 html,
 body {
   margin: 0;
+  width: 100%;
   background-color: rgb(60, 60, 60);
   font-family: tahoma, sans-serif;
   font-weight: bold;
   color: cornflowerblue;
+  cursor: crosshair;
 }
 header {
   font-size: 30px;
@@ -22,19 +24,65 @@ header {
   font-size: 60px;
 }
 
+img {
+  width: 0.5em;
+  height: 0.7em;
+}
+
 .button {
   width: 100%;
   margin-top: 50px;
   display: none;
+  /* display: flex; */
+  justify-content: center;
 }
 
 button {
-  width: 40%;
-  padding: 8px 0px;
-  margin-left: 30%;
+  width: 50%;
+  padding: 8px 1px;
+  border-radius: 5px;
+  /* margin-left: 30%; */
   font-size: 1em;
   color: #fff;
   cursor: pointer;
-  background-color: red;
-  outline: navy;
+  background-color: rgb(206, 87, 87);
+  border: grey;
+  /* outline: navy; */
+  box-shadow: 0 4px 8px 0 #5c5c5c, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+canvas {
+  display: block;
+}
+#happy {
+  position: absolute;
+  top: 4%;
+  left: 10%;
+  text-align: center;
+  /* transform: translate(-50%, -50%); */
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 2em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#joyeux {
+  position: absolute;
+  top: 45%;
+  left: 2%;
+  text-align: center;
+  /* transform: translate(-50%, -50%); */
+  color: #fff;
+  font-size: 1.2em;
+  /* font-family: "Source Sans Pro"; */
+}
+
+#celebration {
+  display: none;
+}
+
+#salt-bae {
+  display: none;
 }
